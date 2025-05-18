@@ -1,0 +1,46 @@
+
+
+body{
+    background-color:rgb(37, 46, 56);
+    display: flex;
+    justify-content: center;
+}
+
+
+#calculator{
+    text-align: center;
+    margin: 5rem;
+    max-width: 600px;
+    align-items: center;
+    background-color: slategrey;
+    padding: 1rem;
+}
+
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+button{
+    padding: .5rem;
+    margin: .3rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: .1rem;
+    box-shadow: 2px 2px 2px 2px  black;
+}
+
+input{
+    height: 5rem;
+    font-size: 1.5rem;
+    box-shadow:  2px 2px 2px 2px  black;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+input:focus{
+    display: none;
+}

@@ -1,0 +1,47 @@
+
+
+body{
+    background-color: rgb(228, 167, 93);
+}
+
+
+#container{
+    text-align: center;
+    margin-top: 5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+button{
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(212, 136, 43);
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    margin: 0 1rem;
+    transition: .1s;
+
+}
+button:hover{
+    background-color: rgb(124, 82, 30);
+
+}
+
+button:focus{
+    background-color: white;
+    color: black;
+}
+
+#display{
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: rgb(250, 245, 245);
+    font-weight: bold;
+    
+}
+
+#scoreDisplay{
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+}

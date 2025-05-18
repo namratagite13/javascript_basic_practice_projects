@@ -1,0 +1,46 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: darksalmon;
+}
+
+form{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:lightsalmon;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px black;
+    width: 400px;
+    height: 300px;
+   
+}
+
+input{
+    border: none;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+label{
+    font-size: 1.5rem;
+    font-weight: 200;
+    
+}
+
+button{
+    margin-top: 2rem;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-size: 1rem;
+    padding: .5rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+button:hover{
+    background-color: rgb(99, 10, 10);
+}
