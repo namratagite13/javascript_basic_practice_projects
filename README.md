@@ -1,0 +1,2 @@
+# javascript_basic_practice_projects
+javascript basic practice projects
