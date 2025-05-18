@@ -1,0 +1,27 @@
+
+
+
+#displayZero{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#allButtons{
+    text-align: center;
+}
+
+
+.buttons{
+    padding: 5px;
+    font-size: 1rem;
+    background-color: darkgreen;
+    color: white;
+    transition: .25s;
+}
+
+.buttons:hover{
+    background-color: rgb(30, 236, 30);
+}
